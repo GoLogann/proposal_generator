@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Python egg info
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# pytest
+.pytest_cache/
+
+# logs
+*.log
+logs/
+log/
+
+# unit test / test output
+test-results/
+
+# dotenv
+.env
+.env.*
+
+# local config
+config.yaml
+config.json
+
+# SQLite or other local DBs
+*.sqlite3
+*.db
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# AWS credentials (se houver)
+.aws/
+
+# qdrant local (se usar docker volume)
+qdrant_storage/
+
+# LangChain
+lc_logs/
+
+# IPython history
+.history
+
+# Other
+__pypackages__/

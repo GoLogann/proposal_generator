@@ -1,0 +1,38 @@
+# --------------------
+# LangChain Stack
+# --------------------
+langchain~=0.3.26
+langchain-core~=0.3.67
+langchain-community~=0.3.27
+
+# --------------------
+# LangGraph Stack
+# --------------------
+langgraph==0.5.4
+langgraph-checkpoint==2.1.1
+langgraph-prebuilt==0.5.2
+langgraph-sdk==0.1.74
+
+# --------------------
+# FastAPI & Web Stack
+# --------------------
+fastapi~=0.115.14
+starlette~=0.46.2
+uvicorn~=0.35.0
+
+# --------------------
+# Dependency Injection & Validation
+# --------------------
+dependency-injector~=4.48.1
+pydantic~=2.11.7
+
+# --------------------
+# Vector Store (Qdrant)
+# --------------------
+qdrant-client>=1.14.3
+
+# --------------------
+# Utilities
+# --------------------
+python-dotenv
+orjson
